@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 void main() {
     Scanner teclado = new Scanner(System.in);
-    String[] asignaturas = {"Matematicas", "Fisisca", "Quimica", "Historia", "Lengua"};
+    String[] asignaturas = {"Matematicas", "Fisica", "Quimica", "Historia", "Lengua"};
     double[] notas = new double[asignaturas.length];
     for (int i = 0; i < asignaturas.length; i++) {
         System.out.print("Ingrese la nota de " + asignaturas[i] +": \n");
